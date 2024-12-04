@@ -17,7 +17,6 @@ fun day4part1() {
 //    """.trimIndent().lines()
     val maze = File("input/day4.txt").readLines()
 
-    val solutionsPositions = mutableListOf<Pair<Int, Int>>()
     var xmasCounter = 0;
     rows@for (row in maze.indices) {
         letters@for (col in maze[row].indices) {
